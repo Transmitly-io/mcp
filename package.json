@@ -1,7 +1,7 @@
 {
   "name": "@transmitly/mcp",
-  "version": "1.0.0",
-  "description": "MCP server for Transmitly inboxes",
+  "version": "1.1.0",
+  "description": "MCP server for Transmitly inboxes, campaigns and deliverability",
   "type": "module",
   "bin": {
     "transmitly-mcp": "./index.js"
