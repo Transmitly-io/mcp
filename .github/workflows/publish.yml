@@ -20,6 +20,5 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - run: npm ci
       - run: node --check index.js
+      - run: npm install -g npm@latest
       - run: npm publish --access public --provenance
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
